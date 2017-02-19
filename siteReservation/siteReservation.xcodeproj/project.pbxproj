@@ -13,6 +13,8 @@
 		915BDA7E1E593EBD003A4CD3 /* siteReservation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 915BDA7C1E593EBD003A4CD3 /* siteReservation.xcdatamodeld */; };
 		915BDA801E593EBD003A4CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915BDA7F1E593EBD003A4CD3 /* Assets.xcassets */; };
 		915BDA831E593EBD003A4CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915BDA811E593EBD003A4CD3 /* LaunchScreen.storyboard */; };
+		915BDA8C1E594661003A4CD3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915BDA8B1E594661003A4CD3 /* LoginViewController.m */; };
+		91E206641E596AD600185F8E /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E206631E596AD600185F8E /* LoginView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		915BDA7F1E593EBD003A4CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		915BDA821E593EBD003A4CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		915BDA841E593EBD003A4CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915BDA8A1E594661003A4CD3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		915BDA8B1E594661003A4CD3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		91E206611E596A1F00185F8E /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		91E206621E596AD600185F8E /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		91E206631E596AD600185F8E /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,8 @@
 		915BDA6F1E593EBD003A4CD3 /* siteReservation */ = {
 			isa = PBXGroup;
 			children = (
+				915BDA8A1E594661003A4CD3 /* LoginViewController.h */,
+				915BDA8B1E594661003A4CD3 /* LoginViewController.m */,
 				915BDA731E593EBD003A4CD3 /* AppDelegate.h */,
 				915BDA741E593EBD003A4CD3 /* AppDelegate.m */,
 				915BDA761E593EBD003A4CD3 /* ViewController.h */,
@@ -67,6 +76,9 @@
 				915BDA841E593EBD003A4CD3 /* Info.plist */,
 				915BDA7C1E593EBD003A4CD3 /* siteReservation.xcdatamodeld */,
 				915BDA701E593EBD003A4CD3 /* Supporting Files */,
+				91E206611E596A1F00185F8E /* Global.h */,
+				91E206621E596AD600185F8E /* LoginView.h */,
+				91E206631E596AD600185F8E /* LoginView.m */,
 			);
 			path = siteReservation;
 			sourceTree = "<group>";
@@ -150,10 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E206641E596AD600185F8E /* LoginView.m in Sources */,
 				915BDA781E593EBD003A4CD3 /* ViewController.m in Sources */,
 				915BDA751E593EBD003A4CD3 /* AppDelegate.m in Sources */,
 				915BDA721E593EBD003A4CD3 /* main.m in Sources */,
 				915BDA7E1E593EBD003A4CD3 /* siteReservation.xcdatamodeld in Sources */,
+				915BDA8C1E594661003A4CD3 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +320,7 @@
 				915BDA891E593EBD003A4CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -11,3 +11,9 @@
 
 
 #endif /* Global_h */
+
+//设备屏幕大小
+#define __MainScreenFrame   [[UIScreen mainScreen] bounds]
+//设备屏幕宽
+#define __MainScreen_Width  ((__MainScreenFrame.size.width)<(__MainScreenFrame.size.height)?(__MainScreenFrame.size.width):(__MainScreenFrame.size.height))
+#define __MainScreen_Height ((__MainScreenFrame.size.height)>(__MainScreenFrame.size.width)?(__MainScreenFrame.size.height):(__MainScreenFrame.size.width))

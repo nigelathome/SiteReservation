@@ -21,7 +21,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // Override point for customization after application launch.
-    ViewController *viewController = [[ViewController alloc] init];
+    LoginViewController *viewController = [[LoginViewController alloc] init];
     self.window.rootViewController = viewController;
     self.window.backgroundColor = [UIColor purpleColor];
     [self.window makeKeyAndVisible];
