@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@protocol LTDropDownRefreshViewDelegate;
 @interface LTDropDownRefreshTableView : UITableView
+{
+    UIImageView *tableHeaderView;
+    NextPageFooterView   *tableFooterView;
+    BOOL    isGettingNextPage;
+}
+
+
+
+@property(nonatomic, weak)id<LTDropDownRefreshViewDelegate>  refreshDelegate;
+
+- (void)refreshTableViewDidScroll:(UIScrollView *)scrollView;
+- (void)refreshTableViewDidEndDecelerating:(UIScrollView *)scrollView;
+
 
 @end
