@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface LoginView : UIView
+- (void)addChangeMoneyTarget:(nullable id)target action:(nullable SEL)action forControlEvents:(UIControlEvents)controlEvents;
 
 @end
